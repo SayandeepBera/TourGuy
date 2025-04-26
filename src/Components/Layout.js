@@ -3,6 +3,7 @@ import Popular from './PopularPlace';
 import background from './Images/background.jpg';
 import BookTrip from './BookTrip';
 import Gallary from './Gallary';
+// import ViewDetails from './ViewDetails';
 
 export default function Layout() {
 
@@ -15,17 +16,22 @@ export default function Layout() {
         <button type="button" className="btn btn-info rounded-pill text-light">GET STARTED</button>
       </div>
 
-      <div className="position-relative" style={{ bottom: "90px" }}>
-        <Popular/>
-      </div>
+      <div className="mx-5">
+        <div className="position-relative" style={{ bottom: "90px" }}>
+          <Popular/>
+        </div>
 
-      <div className="position-relative mx-5" style={{ bottom: "70px" }}>
-        <BookTrip/>
+        <div className="position-relative" style={{ bottom: "70px" }}>
+          <BookTrip/>
+        </div>
+        
+        <div className="position-relative" style={{ bottom: "40px" }}>
+          <Gallary/>
+        </div>
+
       </div>
       
-      <div className="position-relative" style={{ bottom: "40px" }}>
-        <Gallary/>
-      </div>
+      
     </div>
   )
 }
