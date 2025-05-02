@@ -7,6 +7,7 @@ import ViewDetailsWrapper from './Components/ViewDetailsWrapper';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Destinations from './Components/Destinations';
+import Booking from './Components/Booking';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/login" element={<LoginPage/>} />
           <Route path="/register" element={<Register/>} />
           <Route path="/viewdetails/:cityName" element={<ViewDetailsWrapper/>} />
+          <Route path="/booking" element={<Booking/>} />
         </Routes>
       </Router>
     </>

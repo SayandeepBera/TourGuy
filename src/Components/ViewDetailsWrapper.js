@@ -112,7 +112,7 @@ import Athirappilly_Waterfalls from './Images/Athirappilly_Waterfalls.jpg';
 
 export default function ViewDetailsWrapper() {
     const { cityName } = useParams();
-
+  
   const cityData = {
     kolkata: {
       city: "Kolkata",
@@ -315,7 +315,9 @@ export default function ViewDetailsWrapper() {
     },
   };
 
+  console.log(cityName);
   const data=cityData[cityName.toLowerCase()] || {};
+  
 
   return (
     <div>

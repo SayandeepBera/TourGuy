@@ -6,8 +6,8 @@ export default function Register() {
     <div>
       <div className="container position-relative" style={{top : "100px"}}>
         <div className="row justify-content-center">
-            <div className="col-md-6">
-                <div className="card shadow p-4">
+            <div className="col-md-7">
+                <div className="card shadow p-5 rounded-4" style={{background : "rgb(228 226 226)"}}>
                     <h2 className="text-center mb-3">Create an Account</h2>
                     <p className="text-center text-muted">Please fill in the form to create an account.</p>
 

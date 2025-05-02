@@ -1,9 +1,8 @@
 import React from 'react'
 import Popular from './PopularPlace';
 import background from './Images/background.jpg';
-import BookTrip from './BookTrip';
+import SearchTrip from './SearchTrip';
 import Gallary from './Gallary';
-// import ViewDetails from './ViewDetails';
 
 export default function Layout() {
 
@@ -22,7 +21,7 @@ export default function Layout() {
         </div>
 
         <div className="position-relative" style={{ bottom: "70px" }}>
-          <BookTrip/>
+          <SearchTrip/>
         </div>
         
         <div className="position-relative" style={{ bottom: "40px" }}>
@@ -30,8 +29,7 @@ export default function Layout() {
         </div>
 
       </div>
-      
-      
+    
     </div>
   )
 }
